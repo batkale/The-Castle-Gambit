@@ -1,4 +1,4 @@
-# The Castel Gambit
+# The Castle Gambit
 
 An entry for [AI Chessathon](https://aichessathon.com). A classical alpha-beta engine with a
 hand-written evaluation, written in the subset of Python that numba compiles.

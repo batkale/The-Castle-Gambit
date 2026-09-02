@@ -25,7 +25,7 @@ PAGE = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Castel Gambit</title>
+<title>The Castle Gambit</title>
 <style>
   :root {
     --bg: #14181b; --panel: #1c2226; --line: #2b343a; --text: #e6ebe8;
@@ -115,7 +115,7 @@ PAGE = """<!doctype html>
 <body>
 
 <main>
-  <h1>The Castel Gambit</h1>
+  <h1>The Castle Gambit</h1>
   <p class="sub">Click a piece, then its destination.</p>
   <div id="board"></div>
 </main>

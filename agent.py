@@ -1,4 +1,4 @@
-"""The Castel Gambit -- entry point for AI Chessathon.
+"""The Castle Gambit -- entry point for AI Chessathon.
 
     get_move(fen, time_left_ms) -> uci
 
