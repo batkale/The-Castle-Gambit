@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+submission.zip
+*.pgn
+data/
+tools/*.log
+tools/magic_err.txt

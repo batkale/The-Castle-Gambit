@@ -1,0 +1,53 @@
+[project]
+name = "aichessathon-starter"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "chess==1.11.2",
+    "numpy==2.5.2",
+    "numba==0.67.0",
+    "torch==2.13.0",
+    "onnxruntime==1.29.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[dependency-groups]
+dev = ["mypy>=1.18", "ruff>=0.14"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B", "SIM", "RUF"]
+ignore = ["N818"]
+
+[tool.mypy]
+strict = true
+files = ["agent.py", "harness"]
+
+# The engine modules are written in the subset numba compiles, where Python-level
+# annotations describe the numpy scalars rather than the types numba actually infers, so
+# they would be noise. agent.py, the file a judge reads, stays checked.
+[[tool.mypy.overrides]]
+module = ["cg_core", "cg_eval", "cg_search", "cg_magics"]
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = ["agent"]
+disallow_untyped_calls = false
+
+# play_web.py embeds its whole page as a string; wrapping HTML to 100 columns would
+# make it less readable, not more.
+[tool.ruff.lint.per-file-ignores]
+"tools/play_web.py" = ["E501"]
