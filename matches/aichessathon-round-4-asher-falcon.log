@@ -1,0 +1,87 @@
+AI CHESSATHON MATCH LOG
+=======================
+
+MATCH
+  Round          Rated 4
+  Team           The Castle Gambit
+  Colour         White
+  Opponent       Asher Falcon
+  Opening        Caro-Kann Advance
+  Start FEN      rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P4/5N2/PPPN1PPP/R1BQKB1R b KQkq - 1 5
+  You moved      Second
+  Machine        w-a99c3d
+  Finished       2026-09-04 10:21:04 UTC
+  Match ID       b9ec34a8-89a8-4f87-ae6b-896e705a28ca
+
+INIT
+  Ready in       NA
+  Budget         90.0 s
+  Used           NA
+
+CLOCK
+  Base           120.0 s plus 0.5 s per move
+  Moves          45
+  Time used      135.5 s
+  Slowest        11.2 s on move 1
+  Fastest        0.0 s on move 44
+  Average        3.0 s
+  Left at end    7.0 s
+
+RESULT
+  Lost by checkmate
+  Game lasted 272.4 s
+
+MOVES
+    #  move          time     clock left
+    1  Nb3          11.2 s      109.3 s
+    2  Bd3           5.9 s      103.9 s
+    3  cxd3          9.6 s       94.8 s
+    4  O-O           5.6 s       89.7 s
+    5  Nc5           7.3 s       82.9 s
+    6  dxc5          4.1 s       79.4 s
+    7  Qxa4         10.3 s       69.6 s
+    8  Bd2           3.6 s       66.5 s
+    9  Rac1          4.1 s       62.9 s
+   10  a3            4.4 s       59.1 s
+   11  Qg4           4.8 s       54.8 s
+   12  d4            2.8 s       52.4 s
+   13  dxc5          2.7 s       50.3 s
+   14  Rcd1          5.9 s       44.9 s
+   15  b4            2.9 s       42.5 s
+   16  Kh1           3.3 s       39.7 s
+   17  Qh3           4.1 s       36.1 s
+   18  g4            3.2 s       33.4 s
+   19  Rfe1          2.4 s       31.4 s
+   20  Nxd4          2.3 s       29.6 s
+   21  Qf3           2.0 s       28.2 s
+   22  Re2           1.7 s       26.9 s
+   23  Qe3           1.7 s       25.7 s
+   24  Qd3           4.2 s       22.0 s
+   25  Bxc3          1.7 s       20.8 s
+   26  Bd2           1.6 s       19.7 s
+   27  Kg1           1.8 s       18.3 s
+   28  Rxd2          1.7 s       17.1 s
+   29  Kg2           1.2 s       16.4 s
+   30  Kf3           1.7 s       15.2 s
+   31  Rg2           3.5 s       12.2 s
+   32  Qd2           1.2 s       11.4 s
+   33  b5            0.9 s       11.0 s
+   34  b6            1.3 s       10.3 s
+   35  Qf2           1.3 s        9.4 s
+   36  Qxg2          1.6 s        8.3 s
+   37  Kxg2          1.3 s        7.5 s
+   38  Kf2           1.1 s        7.0 s
+   39  h3            2.1 s        5.4 s
+   40  a4            0.8 s        5.1 s
+   41  Ke3           0.6 s        5.0 s
+   42  Ke4           0.0 s        5.5 s
+   43  Kf4           0.0 s        6.0 s
+   44  a5            0.0 s        6.5 s
+   45  Kf3           0.0 s        7.0 s
+
+OUTPUT
+  NA. This game was played before agent logs were kept, so the output
+  and the init time were never recorded. Everything above comes from
+  the clocks in the game itself.
+
+Email hello@aichessathon.com with this file if anything here is unclear.

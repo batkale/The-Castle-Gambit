@@ -1,0 +1,93 @@
+AI CHESSATHON MATCH LOG
+=======================
+
+MATCH
+  Round          Rated 6
+  Team           The Castle Gambit
+  Colour         White
+  Opponent       LeetBeaters
+  Opening        French Tarrasch
+  Start FEN      rnbqkbnr/pp3ppp/8/2pp4/P2P4/8/1PPN1PPP/R1BQKBNR b KQkq - 0 5
+  You moved      Second
+  Machine        w-82c5b3
+  Finished       2026-09-04 12:20:47 UTC
+  Match ID       57b0547e-b602-4521-aab0-5e02acc7175e
+
+INIT
+  Ready in       NA
+  Budget         90.0 s
+  Used           NA
+
+CLOCK
+  Base           120.0 s plus 0.5 s per move
+  Moves          51
+  Time used      140.3 s
+  Slowest        15.5 s on move 2
+  Fastest        0.0 s on move 50
+  Average        2.8 s
+  Left at end    5.2 s
+
+RESULT
+  Lost by checkmate
+  Game lasted 267.5 s
+
+MOVES
+    #  move          time     clock left
+    1  dxc5         15.5 s      105.0 s
+    2  Bd3          15.5 s       90.0 s
+    3  Nb3          12.3 s       78.2 s
+    4  Qe2+         11.8 s       66.9 s
+    5  Nf3           3.6 s       63.8 s
+    6  Be3           3.5 s       60.8 s
+    7  h3            3.3 s       58.0 s
+    8  Nfd4          2.9 s       55.6 s
+    9  Nxc6          9.4 s       46.7 s
+   10  c3            3.8 s       43.3 s
+   11  Bb5           2.7 s       41.2 s
+   12  axb5          3.3 s       38.3 s
+   13  O-O           4.1 s       34.8 s
+   14  g3            3.1 s       32.2 s
+   15  Ra6           2.1 s       30.6 s
+   16  Qf3           2.5 s       28.6 s
+   17  Qg2           2.3 s       26.8 s
+   18  Kxg2          2.6 s       24.7 s
+   19  fxe3          4.9 s       20.3 s
+   20  Rc6           1.9 s       18.9 s
+   21  Nxc5          1.3 s       18.1 s
+   22  Na4           1.9 s       16.8 s
+   23  Kf3           2.7 s       14.5 s
+   24  Nxb6          1.1 s       13.9 s
+   25  Kg4           1.5 s       12.9 s
+   26  Rxb6          1.2 s       12.3 s
+   27  Rf5           1.6 s       11.2 s
+   28  Rb8+          2.9 s        8.8 s
+   29  Rb7+          2.6 s        6.7 s
+   30  Rxd5          1.5 s        5.6 s
+   31  Kh4           0.9 s        5.3 s
+   32  Kg4           1.6 s        4.2 s
+   33  Rxh5          0.7 s        4.0 s
+   34  Rxg7+         0.8 s        3.7 s
+   35  Kxh5          1.0 s        3.2 s
+   36  Kg4           0.9 s        2.7 s
+   37  Kf4           0.8 s        2.4 s
+   38  Ke3           0.7 s        2.2 s
+   39  c4            0.7 s        2.1 s
+   40  Kd4           0.5 s        2.1 s
+   41  c5            0.6 s        1.9 s
+   42  Kc4           0.5 s        2.0 s
+   43  Kb5           0.6 s        1.9 s
+   44  c6            0.6 s        1.8 s
+   45  c7            0.1 s        2.2 s
+   46  Ka5           0.0 s        2.7 s
+   47  Kb4           0.0 s        3.2 s
+   48  Ka4           0.0 s        3.7 s
+   49  Ka3           0.0 s        4.2 s
+   50  Ka4           0.0 s        4.7 s
+   51  Ka3           0.0 s        5.2 s
+
+OUTPUT
+  NA. This game was played before agent logs were kept, so the output
+  and the init time were never recorded. Everything above comes from
+  the clocks in the game itself.
+
+Email hello@aichessathon.com with this file if anything here is unclear.

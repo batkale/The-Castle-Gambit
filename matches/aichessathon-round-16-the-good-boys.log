@@ -1,0 +1,132 @@
+AI CHESSATHON MATCH LOG
+=======================
+
+MATCH
+  Round          Rated 16
+  Team           The Castle Gambit
+  Colour         Black
+  Opponent       The Good Boys
+  Opening        Reti Opening
+  Start FEN      rnbqk2r/ppp1bppp/4pn2/8/2Pp4/4PNP1/PPQP1PBP/RNB1K2R b KQkq - 0 6
+  You moved      First
+  Machine        w-d1da36
+  Finished       2026-09-05 07:16:12 UTC
+  Match ID       583a7707-48bb-40d2-8552-1a64c4d5dce4
+
+INIT
+  Ready in       23.8 s
+  Budget         90.0 s
+  Used           26 percent
+
+CLOCK
+  Base           120.0 s plus 0.5 s per move
+  Moves          45
+  Time used      135.9 s
+  Slowest        13.2 s on move 2
+  Fastest        0.0 s on move 43
+  Average        3.0 s
+  Left at end    6.6 s
+
+RESULT
+  Won by checkmate
+  Game lasted 167.5 s
+
+MOVES
+    #  move          time     clock left
+    1  Nc6          11.8 s      108.7 s
+    2  Nxd4         13.2 s       95.9 s
+    3  Qxd4          4.7 s       91.8 s
+    4  Qe5+          5.4 s       86.9 s
+    5  O-O           5.0 s       82.4 s
+    6  Rd8           8.7 s       74.2 s
+    7  c6            9.3 s       65.4 s
+    8  Qh5          10.2 s       55.6 s
+    9  e5            3.6 s       52.6 s
+   10  Bh3           2.8 s       50.3 s
+   11  Qxh3+         2.8 s       47.9 s
+   12  Rd7           2.8 s       45.6 s
+   13  Bc5           3.0 s       43.1 s
+   14  bxc6          2.6 s       41.0 s
+   15  Nxe4          3.8 s       37.7 s
+   16  Qg4+          4.2 s       33.9 s
+   17  Qf3           2.6 s       31.9 s
+   18  Rad8          1.7 s       30.6 s
+   19  Bxb4+         2.4 s       28.7 s
+   20  Rd2           5.5 s       23.7 s
+   21  Qxe4+         2.9 s       21.3 s
+   22  Qxb1+         4.4 s       17.4 s
+   23  Qc2+          3.3 s       14.6 s
+   24  Rd3           3.3 s       11.7 s
+   25  Qxd3+         1.5 s       10.7 s
+   26  Qxc4          1.6 s        9.6 s
+   27  f6            1.3 s        8.8 s
+   28  Qxb4          1.0 s        8.2 s
+   29  Qb2+          2.1 s        6.6 s
+   30  Qe2           0.9 s        6.2 s
+   31  c5            1.5 s        5.2 s
+   32  Qe3           0.8 s        4.9 s
+   33  c4            0.9 s        4.5 s
+   34  c3            0.8 s        4.2 s
+   35  c2            0.6 s        4.1 s
+   36  Qe2+          0.8 s        3.9 s
+   37  e4            0.7 s        3.7 s
+   38  e3            1.1 s        3.1 s
+   39  Qxf1+         0.0 s        3.6 s
+   40  c1=Q+         0.0 s        4.1 s
+   41  e2            0.0 s        4.6 s
+   42  e1=Q          0.0 s        5.1 s
+   43  Qh1+          0.0 s        5.6 s
+   44  Qc8+          0.0 s        6.1 s
+   45  Qc4#          0.0 s        6.6 s
+
+OUTPUT
+  2,543 bytes on stderr
+
+  ready in 22.4s (numba=True)
+  d17/28 +7cp 11,258,804n 11.81s 953,007nps clock=120000ms
+  d17/28 +4cp 12,667,673n 13.24s 956,793nps clock=108683ms
+  d14/25 -6cp 2,740,696n 4.65s 589,455nps clock=95942ms
+  d13/25 +23cp 2,959,547n 5.43s 544,652nps clock=91791ms
+  d14/23 +60cp 4,681,297n 5.00s 935,985nps clock=86856ms
+  d14/26 +73cp 8,093,150n 8.65s 935,188nps clock=82353ms
+  d14/27 +64cp 8,553,185n 9.34s 915,787nps clock=74197ms
+  d14/25 +92cp 9,694,630n 10.21s 949,981nps clock=65354ms
+  d13/25 +135cp 3,445,038n 3.57s 964,200nps clock=55648ms
+  d14/23 +230cp 2,624,214n 2.81s 934,915nps clock=52573ms
+  d13/25 +202cp 2,762,750n 2.82s 978,694nps clock=50262ms
+  d12/23 +275cp 2,677,615n 2.84s 942,873nps clock=47937ms
+  d11/24 +298cp 2,600,295n 2.99s 869,271nps clock=45596ms
+  d14/29 +289cp 2,256,551n 2.58s 874,119nps clock=43103ms
+  d15/27 +305cp 3,406,060n 3.84s 887,525nps clock=41021ms
+  d14/27 +288cp 3,858,652n 4.24s 909,576nps clock=37681ms
+  d15/28 +572cp 2,419,784n 2.55s 947,999nps clock=33938ms
+  d16/31 +535cp 1,715,545n 1.74s 983,871nps clock=31883ms
+  d19/38 +731cp 2,472,623n 2.43s 1,018,256nps clock=30638ms
+  d18/37 +752cp 6,381,568n 5.49s 1,161,724nps clock=28708ms
+  d18/37 +777cp 3,526,695n 2.92s 1,209,397nps clock=23713ms
+  d17/37 +771cp 5,570,560n 4.41s 1,262,578nps clock=21296ms
+  d18/35 +785cp 3,911,766n 3.32s 1,178,021nps clock=17383ms
+  d17/34 +783cp 3,880,601n 3.35s 1,159,208nps clock=14561ms
+  d16/28 +797cp 2,154,234n 1.55s 1,390,855nps clock=11712ms
+  d16/27 +800cp 2,115,145n 1.56s 1,354,142nps clock=10662ms
+  d16/28 +824cp 1,892,162n 1.32s 1,428,948nps clock=9598ms
+  d12/20 +950cp 1,457,186n 1.05s 1,393,337nps clock=8772ms
+  d14/27 +1028cp 2,777,397n 2.14s 1,300,538nps clock=8225ms
+  d16/28 +1082cp 1,172,657n 0.87s 1,342,352nps clock=6589ms
+  d15/27 +1169cp 2,073,284n 1.49s 1,394,930nps clock=6214ms
+  d15/25 +1384cp 1,051,408n 0.79s 1,331,357nps clock=5226ms
+  d16/27 +1441cp 1,109,224n 0.89s 1,252,512nps clock=4934ms
+  d15/27 +1564cp 1,046,960n 0.84s 1,249,795nps clock=4547ms
+  d15/26 +1656cp 670,710n 0.58s 1,162,932nps clock=4207ms
+  d15/28 +2166cp 843,852n 0.77s 1,097,427nps clock=4129ms
+  d15/28 +2539cp 747,283n 0.67s 1,122,253nps clock=3857ms
+  d15/31 +3184cp 1,183,744n 1.09s 1,081,592nps clock=3690ms
+  d10/19 +29985cp 6,838n 0.01s 1,057,416nps clock=3094ms
+  d9/17 +29987cp 4,814n 0.01s 590,600nps clock=3587ms
+  d7/13 +29991cp 6,533n 0.01s 1,244,432nps clock=4077ms
+  d5/9 +29993cp 4,433n 0.00s 1,572,853nps clock=4570ms
+  d3/6 +29995cp 455n 0.00s 941,429nps clock=5066ms
+  d2/3 +29997cp 134n 0.00s 162,678nps clock=5565ms
+  d1/0 +29999cp 43n 0.00s 70,203nps clock=6062ms
+
+Email hello@aichessathon.com with this file if anything here is unclear.

@@ -1,0 +1,103 @@
+AI CHESSATHON MATCH LOG
+=======================
+
+MATCH
+  Round          Rated 2
+  Team           The Castle Gambit
+  Colour         Black
+  Opponent       Blunder Buss
+  Opening        King's Indian Classical
+  Start FEN      rnbqr1k1/ppp2pbp/3p1np1/8/2PNP3/2N1B3/PPQ1BPPP/R3K2R b KQ - 2 9
+  You moved      First
+  Machine        w-ce5f0d
+  Finished       2026-09-04 08:11:31 UTC
+  Match ID       f8387379-35ca-405f-817b-82743650386a
+
+INIT
+  Ready in       NA
+  Budget         90.0 s
+  Used           NA
+
+CLOCK
+  Base           120.0 s plus 0.5 s per move
+  Moves          61
+  Time used      146.1 s
+  Slowest        10.9 s on move 3
+  Fastest        0.0 s on move 61
+  Average        2.4 s
+  Left at end    4.4 s
+
+RESULT
+  Lost by checkmate
+  Game lasted 274.8 s
+
+MOVES
+    #  move          time     clock left
+    1  Ng4           6.7 s      113.8 s
+    2  Bxg4          7.0 s      107.3 s
+    3  Bc8          10.9 s       96.9 s
+    4  c5            4.5 s       92.8 s
+    5  Be6           6.8 s       86.5 s
+    6  Nc6           6.0 s       81.0 s
+    7  Qh4           4.8 s       76.7 s
+    8  Be5           4.3 s       72.8 s
+    9  Bh8           9.3 s       64.0 s
+   10  Bd7           3.6 s       61.0 s
+   11  Qh5           5.2 s       56.2 s
+   12  Re5           3.9 s       52.9 s
+   13  g5            3.0 s       50.3 s
+   14  Bg4           3.2 s       47.6 s
+   15  Qh4           3.9 s       44.2 s
+   16  Re6           6.4 s       38.3 s
+   17  h6            2.7 s       36.1 s
+   18  Rb8           2.6 s       34.0 s
+   19  a6            3.1 s       31.4 s
+   20  Ree8          1.9 s       30.0 s
+   21  Re6           2.2 s       28.3 s
+   22  Qh5           2.0 s       26.8 s
+   23  Rf8           2.9 s       24.3 s
+   24  Kh7           1.9 s       22.9 s
+   25  Ne5           1.8 s       21.7 s
+   26  Nd7           2.7 s       19.5 s
+   27  Rg8           1.6 s       18.4 s
+   28  Ree8          2.4 s       16.4 s
+   29  Nf8           1.2 s       15.8 s
+   30  Ra8           2.5 s       13.7 s
+   31  Kxg8          1.2 s       13.1 s
+   32  Rc8           1.5 s       12.0 s
+   33  Kh7           1.5 s       11.0 s
+   34  Re8           1.1 s       10.5 s
+   35  Ng6           0.9 s       10.1 s
+   36  Be2           0.9 s        9.6 s
+   37  Bg4           0.9 s        9.2 s
+   38  Nxe7          0.9 s        8.8 s
+   39  Bc8           0.9 s        8.5 s
+   40  Qg6           1.0 s        7.9 s
+   41  Qg8           0.7 s        7.7 s
+   42  Qg6           1.3 s        6.9 s
+   43  Bg7           0.8 s        6.6 s
+   44  Kxg6          1.0 s        6.1 s
+   45  Bg4           1.8 s        4.8 s
+   46  Bd7           1.0 s        4.3 s
+   47  g4            0.9 s        3.9 s
+   48  Bxg4          1.0 s        3.4 s
+   49  Be6           0.9 s        3.0 s
+   50  Bxf6          0.5 s        2.9 s
+   51  Kg7           0.9 s        2.6 s
+   52  Kf7           0.5 s        2.6 s
+   53  Rc8           0.6 s        2.5 s
+   54  Kxe7          0.7 s        2.2 s
+   55  Kd7           0.7 s        2.1 s
+   56  Ke7           0.6 s        2.0 s
+   57  Kf6           0.1 s        2.4 s
+   58  Kf5           0.0 s        2.9 s
+   59  Kg5           0.0 s        3.4 s
+   60  h5            0.0 s        3.9 s
+   61  Kh6           0.0 s        4.4 s
+
+OUTPUT
+  NA. This game was played before agent logs were kept, so the output
+  and the init time were never recorded. Everything above comes from
+  the clocks in the game itself.
+
+Email hello@aichessathon.com with this file if anything here is unclear.

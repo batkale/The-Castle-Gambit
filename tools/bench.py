@@ -16,7 +16,7 @@ import time
 
 sys.path.insert(0, ".")
 
-INIT_BUDGET_S = 60.0
+INIT_BUDGET_S = 90.0
 POSITIONS = [
     ("opening", "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4"),
     ("middlegame", "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1"),

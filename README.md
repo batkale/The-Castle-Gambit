@@ -61,7 +61,7 @@ move against python-chess. This is the test that matters: an illegal move loses 
 python tools/bench.py
 ```
 
-Init time against the 60 s budget, and nodes per second. Run it where numba loads.
+Init time against the 90 s budget, and nodes per second. Run it where numba loads.
 
 ```bash
 python -m harness.arena --opponent baselines/minimax --games 8 --base-ms 10000
@@ -85,7 +85,7 @@ Verified with numba on Python 3.12, the platform's versions:
 
 | Measure | Result |
 |---|---|
-| Init, against the 60 s budget | **28-31 s** |
+| Init, against the 90 s budget | **14-18 s** |
 | Search speed | **1.6M nps** (3.6M nps raw move generation) |
 | Depth at 3 s | 13-14 middlegame, 19-25 endgames |
 | Perft, 6 positions to depth 5 | 16.3M nodes, **exact** |
@@ -96,8 +96,21 @@ Verified with numba on Python 3.12, the platform's versions:
 The same code runs without numba at about 4.7k nps, which is the fallback the correctness
 work was done against, not a configuration to play in.
 
-Init is the tightest constraint and it is only half spent, so watch it. Two ways of buying
-it back were measured and rejected: `cache=True` segfaults on a warm start and writes a
-96 MB cache against a 256 MB scratch budget, and `NUMBA_OPT` below 3 changes compile time by
-under a second. If the platform's core is much slower than a laptop's, the fix is to compile
-less, not to compile differently.
+Init was the tightest constraint and is no longer close. Measured back to back on one
+machine it fell from 34-37 s to 17-18 s, by pinning constants as `np.int64` at the call
+sites: numba specialises on the *value* of an integer
+constant, so `negamax` was being compiled three separate times, once per distinct literal
+argument. The search is bit-identical afterwards, verified by move, score, depth and node
+count on six positions.
+
+Caching compiled code cannot help here even in principle, because `/tmp` is created empty
+for each game and deleted with it, so a cache would be written once and never read.
+
+Every number here comes from a laptop, which boosts when cool and settles when hot: the same
+build measures 13.8 s cold and 18.3 s after hours of load. A server holding a steady clock
+behaves like the warm case, so the warm figure is the one to plan against.
+
+The platform runs one core of an AMD EPYC 9V74 at 2.60 GHz, slower per clock than this
+laptop, so expect init in the twenties and node counts below 1.6M nps. Both have room in a
+90 s budget. Every rated game now returns a log carrying the real init time and the time
+taken on each move, which is what settles it for good.

@@ -1,0 +1,109 @@
+AI CHESSATHON MATCH LOG
+=======================
+
+MATCH
+  Round          Rated 7
+  Team           The Castle Gambit
+  Colour         Black
+  Opponent       Fork 72
+  Opening        London System
+  Start FEN      r1bqkb1r/pp3ppp/2n1pn2/2pp4/3P1B2/2P1P2P/PP1N1PP1/R2QKBNR b KQkq - 0 6
+  You moved      First
+  Machine        w-a99c3d
+  Finished       2026-09-04 13:26:46 UTC
+  Match ID       27604abe-abe9-4c74-ba1a-0fe91c74e7fa
+
+INIT
+  Ready in       NA
+  Budget         90.0 s
+  Used           NA
+
+CLOCK
+  Base           120.0 s plus 0.5 s per move
+  Moves          67
+  Time used      148.3 s
+  Slowest        14.7 s on move 4
+  Fastest        0.0 s on move 65
+  Average        2.2 s
+  Left at end    5.2 s
+
+RESULT
+  Won by checkmate
+  Game lasted 282.2 s
+
+MOVES
+    #  move          time     clock left
+    1  Bd6           6.3 s      114.2 s
+    2  Qxd6         10.2 s      104.5 s
+    3  e5           13.3 s       91.7 s
+    4  Qxc5         14.7 s       77.5 s
+    5  Qb6           5.2 s       72.8 s
+    6  O-O           3.6 s       69.7 s
+    7  Qc7           3.4 s       66.9 s
+    8  a5            3.3 s       64.1 s
+    9  a4            3.8 s       60.8 s
+   10  e4            2.9 s       58.4 s
+   11  Nxd4          4.2 s       54.7 s
+   12  b6            3.0 s       52.2 s
+   13  Bd7           6.0 s       46.8 s
+   14  Rfc8          4.5 s       42.8 s
+   15  Qd6           3.1 s       40.2 s
+   16  g5            4.2 s       36.5 s
+   17  Ra7           2.6 s       34.5 s
+   18  dxc4          3.7 s       31.3 s
+   19  cxb3          1.7 s       30.0 s
+   20  Qb8           1.8 s       28.8 s
+   21  b5            1.9 s       27.4 s
+   22  h6            1.8 s       26.1 s
+   23  Ra3           1.7 s       24.9 s
+   24  b4            1.5 s       23.9 s
+   25  Nxe4          1.5 s       22.9 s
+   26  Bf5           1.6 s       21.8 s
+   27  Bc2           1.6 s       20.7 s
+   28  Rxb3          4.3 s       16.8 s
+   29  Rbc3          3.8 s       13.6 s
+   30  R8c6          3.2 s       10.9 s
+   31  Qa7           2.3 s        9.0 s
+   32  Qxa1          1.4 s        8.1 s
+   33  Rc8           0.9 s        7.8 s
+   34  Rb8           1.2 s        7.1 s
+   35  Rxc5          0.7 s        6.9 s
+   36  b3            1.9 s        5.5 s
+   37  b2            0.7 s        5.3 s
+   38  b1=Q          0.8 s        5.0 s
+   39  Rxb1+         0.6 s        4.9 s
+   40  Ba4           1.0 s        4.4 s
+   41  Rc1           0.9 s        4.0 s
+   42  Rxc7          1.2 s        3.3 s
+   43  Rc3           1.0 s        2.8 s
+   44  Bc6           0.6 s        2.7 s
+   45  Kg7           0.6 s        2.6 s
+   46  gxh4          0.6 s        2.5 s
+   47  Rc1           0.7 s        2.4 s
+   48  Kf6           0.7 s        2.2 s
+   49  Rh1+          0.6 s        2.0 s
+   50  Bd7+          0.6 s        1.9 s
+   51  Rg1           0.6 s        1.9 s
+   52  Rxg2          0.5 s        1.8 s
+   53  h3            0.5 s        1.8 s
+   54  Rg1           0.5 s        1.8 s
+   55  h2            0.5 s        1.7 s
+   56  h1=Q          0.5 s        1.7 s
+   57  Rxh1          0.5 s        1.7 s
+   58  h5            0.5 s        1.7 s
+   59  Bxf5          0.5 s        1.7 s
+   60  h4            0.5 s        1.7 s
+   61  h3            0.0 s        2.2 s
+   62  Rh2+          0.0 s        2.7 s
+   63  Rc2           0.0 s        3.2 s
+   64  h2            0.0 s        3.7 s
+   65  h1=Q          0.0 s        4.2 s
+   66  Qe4+          0.0 s        4.7 s
+   67  Rg2#          0.0 s        5.2 s
+
+OUTPUT
+  NA. This game was played before agent logs were kept, so the output
+  and the init time were never recorded. Everything above comes from
+  the clocks in the game itself.
+
+Email hello@aichessathon.com with this file if anything here is unclear.

@@ -1,0 +1,72 @@
+AI CHESSATHON MATCH LOG
+=======================
+
+MATCH
+  Round          Rated 1
+  Team           The Castle Gambit
+  Colour         Black
+  Opponent       claudeshark
+  Opening        French Winawer
+  Start FEN      rnbqk2r/p3nppp/1p2p3/2ppP3/P2P4/2P2N2/2P2PPP/R1BQKB1R b KQkq - 0 8
+  You moved      First
+  Machine        w-b5d791
+  Finished       2026-09-04 07:17:15 UTC
+  Match ID       dd7b41da-4334-4d22-9636-e8a02bce4bad
+
+INIT
+  Ready in       NA
+  Budget         90.0 s
+  Used           NA
+
+CLOCK
+  Base           120.0 s plus 0.5 s per move
+  Moves          30
+  Time used      114.3 s
+  Slowest        13.3 s on move 3
+  Fastest        0.0 s on move 29
+  Average        3.8 s
+  Left at end    20.7 s
+
+RESULT
+  Won by checkmate
+  Game lasted 191.4 s
+
+MOVES
+    #  move          time     clock left
+    1  Nd7           5.8 s      114.7 s
+    2  O-O           6.3 s      108.8 s
+    3  f6           13.3 s       96.0 s
+    4  fxe5          4.6 s       91.9 s
+    5  Nb8           6.0 s       86.3 s
+    6  h6            6.3 s       80.5 s
+    7  Qc7           4.7 s       76.3 s
+    8  Nbc6          5.3 s       71.5 s
+    9  Bb7           4.3 s       67.7 s
+   10  d4            4.1 s       64.1 s
+   11  dxc3          4.4 s       60.2 s
+   12  Rad8          4.7 s       55.9 s
+   13  Nf5           4.2 s       52.3 s
+   14  Ncd4          3.1 s       49.7 s
+   15  cxd4          5.4 s       44.8 s
+   16  Qc6           3.8 s       41.5 s
+   17  d3            2.1 s       39.9 s
+   18  d2            2.3 s       38.1 s
+   19  Nd4           3.6 s       35.0 s
+   20  Qe4           3.7 s       31.8 s
+   21  Ne2           4.4 s       27.9 s
+   22  Kh7           3.5 s       24.9 s
+   23  Rxd5          2.5 s       22.9 s
+   24  Nxg1          4.6 s       18.8 s
+   25  Nf3+          1.0 s       18.3 s
+   26  Qxf3          0.0 s       18.7 s
+   27  Bxd5          0.0 s       19.2 s
+   28  d1=Q          0.0 s       19.7 s
+   29  Qh1+          0.0 s       20.2 s
+   30  Qxh1#         0.0 s       20.7 s
+
+OUTPUT
+  NA. This game was played before agent logs were kept, so the output
+  and the init time were never recorded. Everything above comes from
+  the clocks in the game itself.
+
+Email hello@aichessathon.com with this file if anything here is unclear.

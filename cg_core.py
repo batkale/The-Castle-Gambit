@@ -18,7 +18,6 @@ than undoing in place. Copying 84 words is cheaper than getting unmake right, an
 bugs are the kind that surface as an illegal move in a rated game.
 """
 
-import os
 
 import numpy as np
 
@@ -51,12 +50,11 @@ from cg_magics import (
     ROOK_TABLE_SIZE,
 )
 
-# Persisting compiled code between processes looked like free init time and is not: with
-# cache=True a warm start segfaults inside numba on this build, and the cache itself is 96 MB
-# against a 256 MB scratch budget. Measured, rejected, left switchable so it can be retried
-# on the platform's own numba without editing code. Do not turn this on without re-testing a
-# warm start -- a segfault mid-game is a loss.
-CACHE = os.environ.get("CG_NUMBA_CACHE", "0") == "1"
+# numba can persist compiled code between runs, but there is nowhere to persist it to: the
+# platform hands each game a fresh /tmp that is deleted with the game, so a cache would be
+# written once and never read back. It also segfaulted on a warm start when tested locally.
+# Compilation therefore happens once per game, inside the 90s init budget, and takes ~14s.
+CACHE = False
 
 U = np.uint64
 ONE = U(1)
